@@ -1,0 +1,29 @@
+{
+    "portatiles": [
+      {
+        "marca": "Dell",
+        "modelo": "XPS 13",
+        "precio": 1299.99,
+        "procesador": "Intel Core i7",
+        "ram_gb": 16,
+        "sistema_operativo": "Windows 11"
+      },
+      {
+        "marca": "Apple",
+        "modelo": "MacBook Air",
+        "precio": 1149.00,
+        "procesador": "Apple M2",
+        "ram_gb": 8,
+        "sistema_operativo": "macOS Sonoma"
+      },
+      {
+        "marca": "Lenovo",
+        "modelo": "ThinkPad X1 Carbon",
+        "precio": 1399.50,
+        "procesador": "Intel Core i7",
+        "ram_gb": 16,
+        "sistema_operativo": "Windows 11 Pro"
+      }
+    ]
+  }
+  

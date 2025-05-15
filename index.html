@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Portátiles</title>
+</head>
+<body>
+  <script>
+    fetch('ordenadores.json')
+      .then(response => response.json())
+      .then(data => {
+        alert(data.ordenadores[0].modelo);
+      });
+  </script>
+</body>
+</html>
