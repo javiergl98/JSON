@@ -2,12 +2,12 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Portátiles</title>
+  <title>Ordenadores</title>
 </head>
 <body>
   <script>
     fetch('ordenadores.json')
-      .then(response => response.json())
+      .then(response => ordenadores.json())
       .then(data => {
         alert(data.ordenadores[0].modelo);
       });
