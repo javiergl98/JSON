@@ -7,7 +7,7 @@
 <body>
   <script>
     fetch('ordenadores.json')
-      .then(response => ordenadores.json())
+      .then(response => response.json())
       .then(data => {
         alert(data.ordenadores[0].modelo);
       });
